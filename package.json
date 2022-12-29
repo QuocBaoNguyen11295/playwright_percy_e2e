@@ -1,0 +1,30 @@
+{
+  "name": "playwright_percy_e2e",
+  "version": "1.0.0",
+  "description": "Visual Testing with Percy",
+  "main": "index.js",
+  "scripts": {
+    "pw:test:percy": "percy exec -- playwright test --reporter=dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuocBaoNguyen11295/playwright_percy_e2e.git"
+  },
+  "keywords": [
+    "playwright",
+    "percy",
+    "ts"
+  ],
+  "author": "Quoc Bao Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuocBaoNguyen11295/playwright_percy_e2e/issues"
+  },
+  "homepage": "https://github.com/QuocBaoNguyen11295/playwright_percy_e2e#readme",
+  "dependencies": {
+    "@percy/cli": "^1.16.0",
+    "@percy/playwright": "^1.0.4",
+    "@playwright/test": "^1.29.1",
+    "prettier": "^2.8.1"
+  }
+}
